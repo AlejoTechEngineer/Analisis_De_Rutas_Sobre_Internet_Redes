@@ -1,3 +1,5 @@
+<div align="center">
+
 # Análisis de Rutas sobre Internet
 
 ![Networking](https://img.shields.io/badge/Networking-TCP/IP-0078D4?style=for-the-badge)
@@ -7,6 +9,10 @@
 > Diagnóstico de rutas de Internet con traceroute: análisis de latencia, saltos TTL y topología BGP.
 
 ## Descripción
+
+</div>
+
+---
 
 Análisis de rutas de red sobre Internet empleando herramientas de trazado de ruta (`traceroute`/`tracert`): identificación de saltos TTL, medición de latencia por segmento, detección de cuellos de botella y estudio de las rutas BGP que siguen los paquetes entre diferentes sistemas autónomos (AS).
 
@@ -29,3 +35,12 @@ Análisis de rutas de red sobre Internet empleando herramientas de trazado de ru
 
 **Asignatura:** Redes de Computadores · **Institución:** Ingeniería Informática
 **Autor:** Alejandro De Mendoza — Ingeniero Informático · Máster Arquitectura de Software
+
+---
+
+## Autor
+
+**Alejandro De Mendoza**  
+Ingeniero Informático · Especialista en IA · Especialista en Ingeniería de Software · Máster en Arquitectura de Software
+
+[![GitHub](https://img.shields.io/badge/GitHub-AlejoTechEngineer-181717?style=for-the-badge&logo=github)](https://github.com/AlejoTechEngineer)

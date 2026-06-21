@@ -38,6 +38,21 @@ Análisis de rutas de red sobre Internet empleando herramientas de trazado de ru
 
 ---
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[Analisis de Rutas en Internet] --> B[Herramientas de Diagnostico]
+    B --> C[traceroute - Trazado de rutas]
+    B --> D[ping - Latencia y disponibilidad]
+    B --> E[nslookup - Resolucion DNS]
+    C --> F[Identificacion de saltos de red]
+    D --> G[Metricas de latencia RTT]
+    E --> H[Resolucion de nombres de dominio]
+    F & G & H --> I[Analisis de topologia de red]
+    I --> J[Informe de resultados - PDF/DOCX]
+```
+
 ## Autor
 
 **Alejandro De Mendoza**  

@@ -24,20 +24,6 @@ Análisis de rutas de red sobre Internet empleando herramientas de trazado de ru
 | `Tablas.xlsx` | Datos de latencia, TTL y rutas registradas |
 | `*.docx` | Desarrollo del laboratorio |
 
-## Metodología aplicada
-
-1. Ejecución de `traceroute` hacia destinos nacionales e internacionales
-2. Registro de saltos, RTT (Round-Trip Time) y AS intermedios
-3. Análisis de la topología de rutas y detección de anomalías
-4. Comparativa de rutas desde distintos orígenes
-
-## Contexto académico
-
-**Asignatura:** Redes de Computadores · **Institución:** Ingeniería Informática
-**Autor:** Alejandro De Mendoza — Ingeniero Informático · Máster Arquitectura de Software
-
----
-
 ## Arquitectura
 
 ```mermaid
@@ -52,6 +38,20 @@ flowchart TD
     F & G & H --> I[Analisis de topologia de red]
     I --> J[Informe de resultados - PDF/DOCX]
 ```
+
+## Metodología aplicada
+
+1. Ejecución de `traceroute` hacia destinos nacionales e internacionales
+2. Registro de saltos, RTT (Round-Trip Time) y AS intermedios
+3. Análisis de la topología de rutas y detección de anomalías
+4. Comparativa de rutas desde distintos orígenes
+
+## Contexto académico
+
+**Asignatura:** Redes de Computadores · **Institución:** Ingeniería Informática
+**Autor:** Alejandro De Mendoza — Ingeniero Informático · Máster Arquitectura de Software
+
+---
 
 ## Autor
 
